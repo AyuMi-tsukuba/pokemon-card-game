@@ -115,10 +115,10 @@ class Card {
     };
     this.image.onerror = () => {
       console.error(`Failed to load image: ${this.image.src}`);
-      this.image.src = "Images/cards/BackCard.png"; // Fallback to back card image
+      this.image.src = "images/cards/BackCard.png"; // Fallback to back card image
       this.imageLoaded = true; // Mark image as loaded
     };
-    this.image.src = "Images/cards/BackCard.png"; // Default back card image
+    this.image.src = "images/cards/BackCard.png"; // Default back card image
     this.hover = false;
   }
 
